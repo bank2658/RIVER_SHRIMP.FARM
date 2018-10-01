@@ -17,12 +17,23 @@ namespace Service_App
             InitializeComponent();
         }
 
+        public void OnDebug()
+        {
+            this.OnStart(null);
+        }
+
         protected override void OnStart(string[] args)
         {
+            string strPath = AppDomain.CurrentDomain.BaseDirectory + "Log.txt";
+            System.IO.File.AppendAllLines(strPath, new[] { "Starting time : " + DateTime.Now.ToString() });
+
         }
 
         protected override void OnStop()
         {
+            string strPath = AppDomain.CurrentDomain.BaseDirectory + "Log.txt";
+            System.IO.File.AppendAllLines(strPath, new[] { "Stop time : " + DateTime.Now.ToString() });
+
         }
     }
 }
