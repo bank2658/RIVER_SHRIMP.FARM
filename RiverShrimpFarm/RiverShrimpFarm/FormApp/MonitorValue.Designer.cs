@@ -31,6 +31,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -68,19 +74,10 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -118,6 +115,66 @@
             this.groupBox1.Size = new System.Drawing.Size(1362, 102);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Blue;
+            this.button4.Location = new System.Drawing.Point(819, 20);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(118, 53);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Clear Error";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Lime;
+            this.button3.Location = new System.Drawing.Point(695, 20);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(118, 53);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Error";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Lime;
+            this.button2.Location = new System.Drawing.Point(436, 20);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(118, 53);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Network";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.Location = new System.Drawing.Point(138, 20);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 53);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "PLC1";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(560, 31);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(126, 25);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Status Error";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(273, 31);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(157, 25);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "Status Network";
             // 
             // label28
             // 
@@ -529,86 +586,12 @@
             this.label22.TabIndex = 0;
             this.label22.Text = "0";
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(1061, 102);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(301, 640);
-            this.splitContainer1.SplitterDistance = 99;
-            this.splitContainer1.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Lime;
-            this.button1.Location = new System.Drawing.Point(138, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 53);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "PLC1";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(273, 31);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(157, 25);
-            this.label33.TabIndex = 0;
-            this.label33.Text = "Status Network";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Location = new System.Drawing.Point(436, 20);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 53);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Network";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(560, 31);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(126, 25);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "Status Error";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Location = new System.Drawing.Point(695, 20);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 53);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Error";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Blue;
-            this.button4.Location = new System.Drawing.Point(819, 20);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 53);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Clear Error";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // MonitorValue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(1362, 742);
-            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -624,8 +607,6 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -672,7 +653,6 @@
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
