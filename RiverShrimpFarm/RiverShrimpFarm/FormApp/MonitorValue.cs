@@ -14,7 +14,7 @@ namespace RiverShrimpFarm
     {
         public MonitorValue()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
         
     }
